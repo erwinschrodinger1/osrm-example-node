@@ -1,13 +1,13 @@
-#osrm-example-node
+# osrm-example-node
 This repo contains the error of the osrm file. <br/>
-##For recreating this error I have first 
+## For recreating this error I have first 
  - Downloaded the .osm.pbf file from [GeoFabricLink](https://download.geofabrik.de/europe/germany/berlin.html) <br/>
  - ```docker run -t -v %cd%:/data ghcr.io/project-osrm/osrm-backend:latest osrm-extract -p /opt/car.lua /data/berlin-latest.osm.pbf```
  - ```docker run -t -v %cd%:/data ghcr.io/project-osrm/osrm-backend:latest osrm-contract /data/berlin-latest.osrm```
  - ```docker run -t -v %cd%:/data ghcr.io/project-osrm/osrm-backend:latest osrm-routed --algorithm ch /data/berlin-latest.osrm```
  
- ##Response from the given commands:
- ###From extract
+ ## Response from the given commands:
+ ### From extract
  ```[2023-03-04T10:19:18.447971717] [info] Parsed 0 location-dependent features with 0 GeoJSON polygons
 [2023-03-04T10:19:18.448171617] [info] Using script /opt/car.lua
 [2023-03-04T10:19:18.448215119] [info] Input file: berlin-latest.osm.pbf
@@ -152,7 +152,7 @@ ok, after 0.015269s
 [2023-03-04T10:19:32.754337451] [info] Expansion: 116058 nodes/sec and 98013 edges/sec
 [2023-03-04T10:19:32.754418843] [info] To prepare the data for routing, run: ./osrm-contract "/data/berlin-latest"
 [2023-03-04T10:19:33.057218294] [info] RAM: peak bytes used: 426389504```
-###From Contract
+### From Contract
 ```[2023-03-04T10:20:27.153070085] [info] Input file: /data/berlin-latest.osrm
 [2023-03-04T10:20:27.153954735] [info] Threads: 8
 [2023-03-04T10:20:27.155142993] [info] Reading node weights.
@@ -189,7 +189,7 @@ ok, after 0.015269s
 [2023-03-04T10:22:06.962260402] [info] Preprocessing : 99.807 seconds
 [2023-03-04T10:22:06.962400751] [info] finished preprocessing
 [2023-03-04T10:22:06.962743169] [info] RAM: peak bytes used: 194633728```
-###From Routed
+### From Routed
 ```[2023-03-04T10:22:36.509421924] [info] starting up engines, v5.27.1
 [2023-03-04T10:22:36.510103196] [info] Threads: 8
 [2023-03-04T10:22:36.510116416] [info] IP address: 0.0.0.0

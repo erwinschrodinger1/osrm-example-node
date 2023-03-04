@@ -2,7 +2,8 @@
 This repo contains the error of the osrm file. <br/>
 ## To run the application
 ```npm install
-npm run dev````
+npm run dev 
+```
 ## For recreating this error I have :
  - Downloaded the .osm.pbf file from [GeoFabricLink](https://download.geofabrik.de/europe/germany/berlin.html) <br/>
  - ```docker run -t -v %cd%:/data ghcr.io/project-osrm/osrm-backend:latest osrm-extract -p /opt/car.lua /data/berlin-latest.osm.pbf```

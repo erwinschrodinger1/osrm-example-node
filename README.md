@@ -1,7 +1,7 @@
 # osrm-example-node
 This repo contains the error of the osrm file. <br/>
 ## To run the application
-```npm install```
+```npm install```<br/>
 ```npm run dev```
 ## For recreating this error I have :
  - Downloaded the .osm.pbf file from [GeoFabricLink](https://download.geofabrik.de/europe/germany/berlin.html) <br/>

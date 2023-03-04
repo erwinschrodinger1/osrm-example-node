@@ -9,7 +9,7 @@ This repo contains the error of the osrm file. <br/>
  ## Response from the given commands:
  ### From extract
  
- ```[2023-03-04T10:19:18.447971717] [info] Parsed 0 location-dependent features with 0 GeoJSON polygons
+ ``` [2023-03-04T10:19:18.447971717] [info] Parsed 0 location-dependent features with 0 GeoJSON polygons
 [2023-03-04T10:19:18.448171617] [info] Using script /opt/car.lua
 [2023-03-04T10:19:18.448215119] [info] Input file: berlin-latest.osm.pbf
 [2023-03-04T10:19:18.448251816] [info] Profile: car.lua
@@ -152,11 +152,11 @@ ok, after 0.015269s
 [2023-03-04T10:19:32.754323480] [info] Processed 674962 edges
 [2023-03-04T10:19:32.754337451] [info] Expansion: 116058 nodes/sec and 98013 edges/sec
 [2023-03-04T10:19:32.754418843] [info] To prepare the data for routing, run: ./osrm-contract "/data/berlin-latest"
-[2023-03-04T10:19:33.057218294] [info] RAM: peak bytes used: 426389504```
+[2023-03-04T10:19:33.057218294] [info] RAM: peak bytes used: 426389504 ```
 
 ### From Contract
 
-```[2023-03-04T10:20:27.153070085] [info] Input file: /data/berlin-latest.osrm
+``` [2023-03-04T10:20:27.153070085] [info] Input file: /data/berlin-latest.osrm
 [2023-03-04T10:20:27.153954735] [info] Threads: 8
 [2023-03-04T10:20:27.155142993] [info] Reading node weights.
 [2023-03-04T10:20:27.162552943] [info] Done reading node weights.
@@ -191,14 +191,14 @@ ok, after 0.015269s
 [2023-03-04T10:22:06.792042670] [info] Contraction took 99.5632 sec
 [2023-03-04T10:22:06.962260402] [info] Preprocessing : 99.807 seconds
 [2023-03-04T10:22:06.962400751] [info] finished preprocessing
-[2023-03-04T10:22:06.962743169] [info] RAM: peak bytes used: 194633728```
+[2023-03-04T10:22:06.962743169] [info] RAM: peak bytes used: 194633728 ```
 
 ### From Routed
 
-```[2023-03-04T10:22:36.509421924] [info] starting up engines, v5.27.1
+``` [2023-03-04T10:22:36.509421924] [info] starting up engines, v5.27.1
 [2023-03-04T10:22:36.510103196] [info] Threads: 8
 [2023-03-04T10:22:36.510116416] [info] IP address: 0.0.0.0
 [2023-03-04T10:22:36.510118905] [info] IP port: 5000
 [2023-03-04T10:22:36.925469407] [info] http 1.1 compression handled by zlib version 1.2.11
 [2023-03-04T10:22:36.926998446] [info] Listening on: 0.0.0.0:5000
-[2023-03-04T10:22:36.927406527] [info] running and waiting for requests```
+[2023-03-04T10:22:36.927406527] [info] running and waiting for requests ```
